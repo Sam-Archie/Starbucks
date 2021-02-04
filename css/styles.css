@@ -31,3 +31,17 @@
       .social_icons li a img {
         height: 22px;
         width: 22px; }
+
+.card__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  margin: auto; }
+
+.card__image {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%; }

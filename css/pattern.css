@@ -27,15 +27,15 @@
     padding: 1rem;
     flex-basis: 40%;
 }
-.pattern--wide{
+.pattern--wide {
     flex-basis: auto;
 }
 .pattern__title {
-    color: black;
+    color:  black;
     font-size: 1rem;
 }
 .pattern__text {
-    color:black;
+    color: black;
 }
 .pattern__example {
     margin-top: 1rem;
@@ -45,6 +45,6 @@
 .pattern__example--bg{
     margin-top: 1rem;
     padding-top: 2rem;
-    border-top: 1px solid darkgray;
-    font-family: "Brown", sans-serif;
+    border-top: 1px solid darkgrey;
+    background-color: lightgray;
 }

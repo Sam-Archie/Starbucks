@@ -1,0 +1,15 @@
+
+.card__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-family: $primary-font;
+}
+ 
+.card__image {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+}

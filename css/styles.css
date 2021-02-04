@@ -10,7 +10,8 @@
 .standard_text {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
-  color: #1f1f1f; }
+  color: #1f1f1f;
+  text-decoration: none; }
 
 .standard_text--bold {
   font-weight: bold; }
@@ -45,3 +46,26 @@
   max-width: 200px;
   max-height: 200px;
   border-radius: 50%; }
+.footer-menu {
+  width: 100%;
+  border: none;
+  background-color: white;
+  text-align: left; }
+  .footer-menu__content {
+    list-style: none;
+    line-height: 1.5rem;
+    display: none;
+    overflow: hidden; }
+  .footer-menu__link {
+    display: block;
+    margin-top: 20px; }
+
+.footer-menu:after {
+  content: '\02C5';
+  font-size: 25px;
+  float: right;
+  border-radius: 50%;
+  background-color: #ccc;
+  width: 25px;
+  height: 25px;
+  text-align: center; }

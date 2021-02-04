@@ -19,7 +19,7 @@
     justify-content: center;
 }
 .header__title {
-    font-family: "Brown", sans-serif;;
+    font-family: "Brown", sans-serif;
 }
 .pattern {
     box-shadow: 2px 5px 8px lightgrey;
@@ -46,5 +46,5 @@
     margin-top: 1rem;
     padding-top: 2rem;
     border-top: 1px solid darkgray;
-    background-color: "Brown", sans-serif;;
+    font-family: "Brown", sans-serif;
 }

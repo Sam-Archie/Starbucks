@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .header_text {
   font-family: "Roboto", sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   color: #1f1f1f; }
 
 .header_text--sub {
-  font-size: 2rem; }
+  font-size: 1.8rem; }
 
 .standard_text {
   font-family: "Roboto", sans-serif;
@@ -14,3 +14,20 @@
 
 .standard_text--bold {
   font-weight: bold; }
+
+.social_icons {
+  list-style: none;
+  display: flex;
+  flex-direction: row; }
+  .social_icons li {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: black; }
+    .social_icons li a {
+      display: flex;
+      align-items: center; }
+      .social_icons li a img {
+        height: 22px;
+        width: 22px; }

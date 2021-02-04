@@ -5,12 +5,6 @@
 	src: url('../fonts/BrownStd-Bold.otf') format('opentype');
 }
 
-:root{
-    --lightgrey:lightgrey;
-    --darkgrey: darkgrey;
-    --secondary-font: "Brown", sans-serif;
-	--primary-font: "Brown", sans-serif;
-}
 
 .container {
     margin: 0 auto;
@@ -18,17 +12,17 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    font-family: var(--primary-font);
+    font-family: "Brown", sans-serif;
 }
 .header {
     display: flex;
     justify-content: center;
 }
 .header__title {
-    font-family: var(--secondary-font);
+    font-family: "Brown", sans-serif;;
 }
 .pattern {
-    box-shadow: 2px 5px 8px var(--light-grey);
+    box-shadow: 2px 5px 8px lightgrey;
     margin: 1rem;
     padding: 1rem;
     flex-basis: 40%;
@@ -37,20 +31,20 @@
     flex-basis: auto;
 }
 .pattern__title {
-    color: var(--dark-grey);
+    color: black;
     font-size: 1rem;
 }
 .pattern__text {
-    color:var(--dark-grey);
+    color:black;
 }
 .pattern__example {
     margin-top: 1rem;
     padding-top: 2rem;
-    border-top: 1px solid var(--dark-grey);
+    border-top: 1px solid darkgray;
 }
 .pattern__example--bg{
     margin-top: 1rem;
     padding-top: 2rem;
-    border-top: 1px solid var(--dark-grey);
-    background-color: var(--light-grey);
+    border-top: 1px solid darkgray;
+    background-color: "Brown", sans-serif;;
 }

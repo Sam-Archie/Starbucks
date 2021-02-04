@@ -12,7 +12,7 @@ gulp.task('minify-css', () => {
   });
 
 gulp.task('sass', function () {
-	return gulp.src('./scss/styles.scss')
+	return gulp.src('./sass/main.scss')
     .pipe(sass())
     .pipe(rename('styles.css'))
     .pipe(gulp.dest('./css/'));
@@ -21,6 +21,6 @@ gulp.task('sass', function () {
 gulp.task("minify-sass", gulp.series("sass", "minify-css"));
 
 gulp.task("watch", () => {
-    return gulp.watch("scss/**/*.scss", 
+    return gulp.watch("sass/**/*.scss", 
             gulp.task("minify-sass"));
 });

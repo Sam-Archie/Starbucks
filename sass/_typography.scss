@@ -1,0 +1,19 @@
+.header_text {
+    font-family: $primary-font;
+    font-size: $title-font-size;
+    color: $primary-color;
+}
+
+.header_text--sub {
+    font-size: $subtitle-font-size;
+}
+
+.standard_text {
+    font-family: $primary-font;
+    font-size: $standard-font-size;
+    color: $primary-color;
+}
+
+.standard_text--bold {
+    font-weight: bold;
+}

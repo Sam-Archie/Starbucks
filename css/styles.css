@@ -33,6 +33,20 @@
         height: 22px;
         width: 22px; }
 
+.card__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  margin: auto; }
+
+.card__image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; }
+
 .footer-menu {
   width: 100%;
   border: none;
